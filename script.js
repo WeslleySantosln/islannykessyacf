@@ -1,6 +1,6 @@
 let currentItem = 0;
 
-const items = document.querySelectorAll('.gallery-art')
+const items = document.querySelectorAll('.item')
 const maxItems = items.length;
 
 
