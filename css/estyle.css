@@ -14,6 +14,12 @@ body{
    
 }
 
+.aviso {
+    text-align: center;
+    color: red;
+    
+}
+
 a{
     text-decoration: none;
     color: #999;
@@ -180,6 +186,55 @@ textarea{
             opacity: 1;
         }
 
+    /*Quadro de Logo Marcas*/
+
+        .gallery-thumb{
+            height: 600px;
+            padding: 10px;
+        }
+
+        .gallery-thumb img{
+            border-radius: 5px;
+            margin-inline: 0;
+        
+        }
+        
+        .gallery-thumb img:nth-child(3n -1){
+            margin-inline: 2%;
+        }
+
+        .col33{
+            width: 30%;
+            display: inline;
+            margin-left: 1%;
+            box-sizing: border-box;
+            margin-bottom: 2%;
+            height: 30%;
+        }
+        
+    /*Formulario de email*/
+        
+        .row{
+            overflow: auto;
+            border: red 1px solid;
+        }
+        
+        .col66{
+            width: 48%;
+            float: left;
+            margin-inline: 1%;
+            border: 1px solid green;
+        }
+        
+        
+        
+        .col33-f{
+            width: 30%;
+            height: 100%;
+            display: inline-block;
+            border: 1px solid goldenrod;
+        }
+
 
 .button-default-big{
     background-color: rgba(255, 0, 251, 0.612);
@@ -274,20 +329,11 @@ textarea{
     background: red;
     border-radius: 5px;
     margin-inline: 0;
-    margin-bottom: 2%;
         
 }
 
 
-.gallery-thumb img{
-    border-radius: 5px;
-    margin-inline: 0;
 
-}
-
-.gallery-thumb img:nth-child(3n -1){
-    margin-inline: 2%;
-}
 
 
 .col{
@@ -298,18 +344,9 @@ textarea{
 
 
 
-.col66{
-    width: 64%;
-    float: left;
-}
 
-.col33{
-    width: 32%;
-    float: left;
-    margin-left: 1%;
-    box-sizing: border-box;
-    margin-bottom: 2%;
-}
+
+
 
 .main-footer{
     position: fixed;

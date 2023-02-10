@@ -19,12 +19,12 @@ function direction(direc){
     
     }
 
-    if(currentItem >= 4){
+    if(currentItem >= maxItems){
         currentItem = 0;
     }
     
     if(currentItem < 0){
-        currentItem = 3;  
+        currentItem = maxItems - 1;  
     }
 
     items.forEach((item) => item.classList.remove("current-item"));
