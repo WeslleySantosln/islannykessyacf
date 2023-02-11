@@ -6,7 +6,6 @@
 
 
 body{
-    background-color: transparent;
     color:#999;
     font-family: arial, helvetica, sans-serif;
     line-height: 1.7;
@@ -76,7 +75,7 @@ textarea{
 
     .backg {
     background-image: url(/fotos/back4.jpg);
-    opacity: 0.3;
+    opacity: 1;
     width: 100%;
     height: 100%;
     top: 0;
