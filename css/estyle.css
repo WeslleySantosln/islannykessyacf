@@ -74,13 +74,14 @@ textarea{
 /*Direita*/
 
     .main-content{
-        background-image: url(/fotos/back4.jpg);
+        background-image: url(../fotos/overlay.png), url(/fotos/back4.jpg);
         background-size: cover;
         background-attachment: fixed;
         width: 70%;
         margin-left: 30%;
         padding: 40px 20px 1px;
         overflow: auto;
+        
     }
 
     
