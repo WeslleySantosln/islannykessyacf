@@ -14,18 +14,73 @@
 <body>
 
 	<header class="main-header">
+		<div class="navMenu">
+
+			<div class="template">
+				<img src="fotos/template.png" alt="Logo marca K&W">
+			</div>
+
+
+			<div class="main-menu">
+				<ul class="menu">
+					<li>Home</li>
+					<li>Sobre</li>
+					<li>Serviços</li>
+					<li>Contato</li>
+					<li>Blog</li>
+				</ul>
+			</div>
+		</div>
 
 	</header>
 
-	<main class="main-content">
-		<h1 class="aviso">
-			<i class="fa-sharp fa-solid fa-gear"></i>
-			Site em Manutenção
-			<i class="fa-sharp fa-solid fa-code"></i>
-			<i class="fa-sharp fa-regular fa-atom-simple"></i>
-		</h1>
+	<main class="main-body">
+		
+		<section class="main-content-section  ">
+
+			<div class="slider">
+
+				<div class="slides">
+					<!--Radio Buttons-->
+					<input type="radio" name="btn-radio" id="radio1">
+					<input type="radio" name="btn-radio" id="radio2">
+					<input type="radio" name="btn-radio" id="radio3">
+					<input type="radio" name="btn-radio" id="radio4">
+
+					<!--Carrousel-->
+					<div class="slide first">
+						<img src="fotos/cp00.jpg" alt="Logo marca da empresa W&K">
+					</div>
+					<div class="slide">
+						<img src="fotos/cp01.jpg" alt="Logo marca da empresa W&K">
+					</div>
+					<div class="slide">
+						<img src="fotos/cp02.jpg" alt="Logo marca da empresa W&K">
+					</div>
+					<div class="slide">
+						<img src="fotos/cp03.jpg" alt="Logo marca da empresa W&K">
+					</div>
+
+					<!--Navigation Auto-->
+					<div class="navigation-auto">
+						<div class="auto-btn1" onclick="check(1)"></div>
+						<div class="auto-btn2" onclick="check(2)"></div>
+						<div class="auto-btn3" onclick="check(3)"></div>
+						<div class="auto-btn4" onclick="check(4)"></div>
+					</div>
+
+				</div>
+				<div class="manual-navigation">
+					<label for="radio1" class="manual-btn"></label>
+					<label for="radio2" class="manual-btn"></label>
+					<label for="radio3" class="manual-btn"></label>
+					<label for="radio4" class="manual-btn"></label>
+				</div>
+			</div>
+		</section>
 
 		<section class="main-content-section">
+			
 			<h2>Gestão Financeira</h2>
 
 			<div class="container-header">
@@ -52,55 +107,8 @@
 			</div>
 		</section>
 
-		<section class="main-content-section ">
-
-			<h3>Recent Works</h3>
-
-			<div class="slider">
-
-				<div class="slides">
-					<!--Radio Buttons-->
-					<input type="radio" name="btn-radio" id="radio1">
-					<input type="radio" name="btn-radio" id="radio2">
-					<input type="radio" name="btn-radio" id="radio3">
-					<input type="radio" name="btn-radio" id="radio4">
-
-					<!--Carrousel-->
-					<div class="slide first">
-						<img src="fotos/thumbs/01.jpg" alt="Logo marca da empresa W&K">
-					</div>
-					<div class="slide">
-						<img src="fotos/thumbs/02.png" alt="Logo marca da empresa W&K">
-					</div>
-					<div class="slide">
-						<img src="fotos/thumbs/03.png" alt="Logo marca da empresa W&K">
-					</div>
-					<div class="slide">
-						<img src="fotos/thumbs/04.png" alt="Logo marca da empresa W&K">
-					</div>
-
-					<!--Navigation Auto-->
-					<div class="navigation-auto">
-						<div class="auto-btn1"></div>
-						<div class="auto-btn2"></div>
-						<div class="auto-btn3"></div>
-						<div class="auto-btn4"></div>
-					</div>
-
-				</div>
-
-				<div class="manual-navigation">
-					<label for="radio1" class="manual-btn"></label>
-					<label for="radio2" class="manual-btn"></label>
-					<label for="radio3" class="manual-btn"></label>
-					<label for="radio4" class="manual-btn"></label>
-				</div>
-
-			</div>
-
-		</section>
-
 		<section class="main-content-section">
+			
 		</section>
 
 		<section class="main-content-section">
