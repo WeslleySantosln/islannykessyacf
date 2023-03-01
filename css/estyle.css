@@ -38,7 +38,6 @@ body{
   width: 100%;
   height: 100%;
   
-
 }
 
 .main-menu{
@@ -63,8 +62,7 @@ body{
   padding: 2% 2% 2%;
   text-align: center;
   border-radius: 5px;
-  transition: all .5s ease-in-out;
-  
+  transition: all .5s ease-in-out; 
 }
 
 .menu li:hover{
@@ -81,9 +79,6 @@ body{
 
 
 
-
-
-
 .main-body{
   margin-top: 2px;
   width: 100%;
@@ -97,9 +92,6 @@ body{
   margin-inline: auto;
 }
 
-
-.main-content-section{
-}
 
 .slider{
   width: 100%;
@@ -122,7 +114,8 @@ body{
 .slide{
 	width: 25%;
 	position: relative;
-  transition: 2s;
+  /**transition: 2s;**/
+  
 	
 }
 
@@ -138,6 +131,40 @@ body{
 	justify-content: center;
   
 } 
+
+.section-sb{
+
+  margin-top: 50px;
+  max-width: 100%;
+  
+}
+
+.section-sb h2{
+ 
+  align-items: center;
+  width: 50%;
+  text-align: center;
+  margin-inline: 27%;
+}
+
+.container-header{
+ 
+  display: flex;
+}
+
+.container-header ul{
+ 
+  width: 30%;
+  margin-left: 4%;
+}
+.container-header ul li{
+  
+  margin: 50px 0;
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
 
 /*Código pausado para manutenção
 .manual-btn{
