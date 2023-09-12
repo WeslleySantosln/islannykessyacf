@@ -1,13 +1,17 @@
 let count = 1;
 
+
+
 function check(v){
     count = v;
     document.getElementById("radio"+count).checked = true;
+ 
 }
 
 setInterval(function(){
     nextImage();
-}, 5000);
+   
+}, 10000);
 
 function nextImage(){
     count++;
@@ -16,4 +20,5 @@ function nextImage(){
     };
     document.getElementById("radio"+count).checked = true;
 };
+
 
