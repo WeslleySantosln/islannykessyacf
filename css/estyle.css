@@ -146,17 +146,13 @@ body{
 
 
 .section-sb{
-  border: red 1px solid;
   margin-top: 50px;
   width: 100%;  
-  max-width: 100%;
-  max-height: 100%;
-  position: absolute;
-   
+  height: 100%;
+ 
 }
 
 .section-sb h2{
-  border: blue 1px solid;
   align-items: center;
   width: 50%;
   text-align: center;
@@ -167,17 +163,15 @@ body{
   display: flex;
   height: 100%;
   max-height: 100%;
-  border: #fff solid 1px;
   position: relative;
  
-
 }
 
 .container-header ul{
-  width: ;
+  
   margin-left: 2%;
   margin-right: 2%;
-  border: #ffd902 solid 1px;
+ 
   flex-grow: 1px;
 }
 
@@ -194,12 +188,12 @@ body{
 }
 
 .container-header ul li:hover{
-  background-color: #fff;
-  color: #2f2e2e;
-  scale: 1.3;
+  background-color: #ffffff0f;
+  color: #ffffff;
+  scale: 1.2;
   margin-left: 15%;
   transition: all 0.9s;
-  border-radius: 3px;
+  border-radius: 1px;
 
 }
 
@@ -277,6 +271,23 @@ body{
 }
 
 
+.contact-form{
+  border: 1px red solid;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between; /* Para alinhar os elementos à esquerda e à direita */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alinhe os itens do formulário à direita */
+}
+
+.dv-form{
+    width: 49%; 
+    text-align: right;
+    padding: 20px; /* Adicione um espaçamento para melhor aparência */
+    background-color: #f0f0f0; /* Adicione uma cor de fundo para destacar */
+
+  }
 
 
 
