@@ -272,22 +272,78 @@ body{
 
 
 .contact-form{
-  border: 1px red solid;
   margin-top: 80px;
+  padding: 0.5%;
   display: flex;
-  justify-content: space-between; /* Para alinhar os elementos à esquerda e à direita */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; /* Alinhe os itens do formulário à direita */
+
 }
 
 .dv-form{
-    width: 49%; 
-    text-align: right;
-    padding: 20px; /* Adicione um espaçamento para melhor aparência */
-    background-color: #f0f0f0; /* Adicione uma cor de fundo para destacar */
-
+    width: 49%;
+    padding: 20px;
+    color: #CFB36C;
+    background-color: #303030; 
+    
   }
+.dv-form h2{
+    font-size: 180%;
+  }
+
+  .dv-form form{
+    margin-top: 10px;
+  }
+
+  #nome{
+    font-size: 150%;  
+  }
+  
+  #name{
+    margin-inline-end: 15%;
+    font-size: 150%;
+    width: 90%;
+    margin-bottom: 2%;
+    display: block;
+  }
+  
+  
+  .email{
+    font-size: 150%;  
+    margin: 0;
+  }
+  
+  #email{
+    margin-inline-end: 15%;
+    font-size: 150%;
+    width: 90%;
+    margin-bottom: 2%;
+    display: block;
+  }
+  .fone{
+    font-size: 150%;  
+    margin: 0;
+  }
+  
+  #fone{
+    margin-inline-end: 15%;
+    font-size: 150%;
+    width: 45%;
+    margin-bottom: 2%;
+    display: block;
+  }
+  .message{
+    font-size: 150%;  
+    margin: 0;
+  }
+  
+  #message{
+    margin-inline-end: 15%;
+    font-size: 150%;
+    width: 45%;
+    margin-bottom: 2%;
+    display: block;
+  }
+
+
 
 
 

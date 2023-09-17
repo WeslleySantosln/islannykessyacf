@@ -114,19 +114,26 @@
 		<section class="main-content-section contact-form">
 			
 			<div class="dv-form">
-				<h2>Entre em Contato</h2>
+				<h2>Contato</h2>
 		
 				<form id="contact-form">
-					<label for="name">Nome:</label>
+
+
+					<label for="name" id="nome">Nome Completo:</label>
 					<input type="text" id="name" name="name" required>
 			
-					<label for="email">Email:</label>
+					<label for="email" class="email">Email:</label>
 					<input type="email" id="email" name="email" required>
-			
-					<label for="message">Mensagem:</label>
+					
+					<label for="fone" class="fone">Telefone para contato:</label>
+					<input type="fone" id="fone" name="fone" required>
+
+					<label for="message" class="message">Mensagem:</label>
 					<textarea id="message" name="message" rows="4" required></textarea>
 			
 					<button type="submit" id="submit-button">Enviar</button>
+				
+				
 				</form>
 			</div>
 			
@@ -146,3 +153,4 @@
 <script src="script.js"></script>
 
 </html>
+
